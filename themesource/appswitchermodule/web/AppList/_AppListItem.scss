@@ -1,0 +1,39 @@
+.appsw{
+    &_list{
+        &__item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 18px;
+        }
+
+        &__link-wrapper{
+            color: #FFFFFF;
+            
+            &:hover, &:focus{
+                text-decoration: none;
+            }
+        }
+    }
+
+    &_item {
+        &__image {
+            width: 20px;
+            height: 20px;
+            border-radius: $border-radius-default;
+        }
+
+        &__name {
+            width: 100%;
+            padding: 0 8px;
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+
+        &__external-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+ALTER TABLE "no$vanakam" RENAME TO "no$phones";
+ALTER TABLE "no$phones" ADD "rating" VARCHAR_IGNORECASE(200) NULL;
+ALTER TABLE "no$phones" ADD "typee" VARCHAR_IGNORECASE(200) NULL;
+ALTER TABLE "no$phones" ADD "username" VARCHAR_IGNORECASE(200) NULL;
+ALTER TABLE "no$phones" ADD "password" VARCHAR_IGNORECASE(200) NULL;
+ALTER TABLE "no$phones" ADD "name" VARCHAR_IGNORECASE(200) NULL;
+ALTER TABLE "no$phones" ADD "price" DECIMAL(28, 8) NULL;
+ALTER TABLE "no$phones" ADD "model" VARCHAR_IGNORECASE(200) NULL;
+UPDATE "mendixsystem$entity" SET "entity_name" = 'no.Phones', "table_name" = 'no$phones', "superentity_id" = NULL, "remote" = false, "remote_primary_key" = false WHERE "id" = '44dc0e4e-7d90-48f3-8c8e-cd12b297ade7';
+INSERT INTO "mendixsystem$attribute" ("id", "entity_id", "attribute_name", "column_name", "type", "length", "default_value", "is_auto_number") VALUES ('45b6804e-832d-49e3-9cb1-c810d1e134d3', '44dc0e4e-7d90-48f3-8c8e-cd12b297ade7', 'Name', 'name', 30, 200, '', false);
+INSERT INTO "mendixsystem$attribute" ("id", "entity_id", "attribute_name", "column_name", "type", "length", "default_value", "is_auto_number") VALUES ('c608579b-1bd8-4ae3-b9f7-083c537c2c90', '44dc0e4e-7d90-48f3-8c8e-cd12b297ade7', 'Model', 'model', 30, 200, '', false);
+INSERT INTO "mendixsystem$attribute" ("id", "entity_id", "attribute_name", "column_name", "type", "length", "default_value", "is_auto_number") VALUES ('7f4e2a65-1f8b-4f35-8224-854c2329b3d2', '44dc0e4e-7d90-48f3-8c8e-cd12b297ade7', 'Price', 'price', 5, 0, '', false);
+INSERT INTO "mendixsystem$attribute" ("id", "entity_id", "attribute_name", "column_name", "type", "length", "default_value", "is_auto_number") VALUES ('727c1c6d-c023-4d48-8814-9393420e5282', '44dc0e4e-7d90-48f3-8c8e-cd12b297ade7', 'Rating', 'rating', 30, 200, '', false);
+INSERT INTO "mendixsystem$attribute" ("id", "entity_id", "attribute_name", "column_name", "type", "length", "default_value", "is_auto_number") VALUES ('10c671cf-5a96-459b-81a6-322fd3d096e0', '44dc0e4e-7d90-48f3-8c8e-cd12b297ade7', 'Typee', 'typee', 30, 200, '', false);
+INSERT INTO "mendixsystem$attribute" ("id", "entity_id", "attribute_name", "column_name", "type", "length", "default_value", "is_auto_number") VALUES ('311552b2-ccb7-4f2c-8301-ac41508e4e4b', '44dc0e4e-7d90-48f3-8c8e-cd12b297ade7', 'Username', 'username', 30, 200, '', false);
+INSERT INTO "mendixsystem$attribute" ("id", "entity_id", "attribute_name", "column_name", "type", "length", "default_value", "is_auto_number") VALUES ('32b558e4-20a2-4a63-8fba-c45b18b4e047', '44dc0e4e-7d90-48f3-8c8e-cd12b297ade7', 'Password', 'password', 30, 200, '', false);
+UPDATE "mendixsystem$version" SET "versionnumber" = '4.2', "lastsyncdate" = '20250604 10:36:51';

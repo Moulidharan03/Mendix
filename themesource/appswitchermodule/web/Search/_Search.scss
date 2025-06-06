@@ -1,0 +1,27 @@
+.appsw_content__search-input,
+.appsw_content__search-input::placeholder {
+    color: #FFFFFF;
+}
+
+.appsw_content__search-input {
+    width: 100%;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0;
+    border-radius: $border-radius-default;
+    padding: 8px 8px 8px 12px;
+}
+
+.appsw_content__search-input:focus {
+    outline: 2px solid white;
+}
+
+.appsw_search-input__icon {
+    position: absolute;
+    top: 32px;
+    right: 32px;
+    
+    &--down {
+        top: 72px;
+    }
+}

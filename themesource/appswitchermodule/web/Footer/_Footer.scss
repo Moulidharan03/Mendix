@@ -1,0 +1,31 @@
+.appsw_AppSwitcher__footer {
+    background-color: $navsidebar-bg-hover;
+    //minus margin value for override the padding of the app swithcer content.
+    margin-left: -24px;
+    margin-right: -24px;
+    margin-bottom: -24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.75rem;
+    border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.appsw_footer__logo {
+    margin-right: 16px;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.appsw_footer__text {
+    .appsw_text__span {
+        display: block;
+    }
+}
+
+.appsw_text__span {
+    .appsw_span__link {
+        color: $header-text-color;
+        text-decoration: underline;
+    }
+}

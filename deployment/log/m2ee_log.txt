@@ -1,0 +1,14 @@
+[rtlauncher:container$] INFO Evictions for component 'project-userlib':
+Evicted D:\MOULI\Survey-main\deployment\model\lib\userlib\nimbus-jose-jwt-9.12.1.jar by D:\MOULI\Survey-main\deployment\model\lib\userlib\nimbus-jose-jwt-9.29.jar.
+Evicted D:\MOULI\Survey-main\deployment\model\lib\userlib\commons-lang3-3.11.jar by D:\MOULI\Survey-main\deployment\model\lib\userlib\commons-lang3-3.12.0.jar.
+Evicted D:\MOULI\Survey-main\deployment\model\lib\userlib\content-type-2.1.jar by D:\MOULI\Survey-main\deployment\model\lib\userlib\content-type-2.2.jar.
+Evicted D:\MOULI\Survey-main\deployment\model\lib\userlib\json-smart-2.4.7.jar by D:\MOULI\Survey-main\deployment\model\lib\userlib\json-smart-2.4.10.jar.
+Evicted D:\MOULI\Survey-main\deployment\model\lib\userlib\asm-9.1.jar by D:\MOULI\Survey-main\deployment\model\lib\userlib\asm-9.3.jar.
+Evicted D:\MOULI\Survey-main\deployment\model\lib\userlib\accessors-smart-2.4.7.jar by D:\MOULI\Survey-main\deployment\model\lib\userlib\accessors-smart-2.4.9.jar.
+Evicted D:\MOULI\Survey-main\deployment\model\lib\userlib\oauth2-oidc-sdk-9.15.jar by D:\MOULI\Survey-main\deployment\model\lib\userlib\oauth2-oidc-sdk-10.7.jar.
+Evicted D:\MOULI\Survey-main\deployment\model\lib\userlib\lang-tag-1.5.jar by D:\MOULI\Survey-main\deployment\model\lib\userlib\lang-tag-1.7.jar.
+2025-06-05 15:05:06.255 INFO - M2EE: Added admin request handler '/prometheus' with servlet class 'com.mendix.metrics.prometheus.PrometheusServlet'
+[rtlauncher:container$] INFO Container start took 6529. Ready to accept admin requests.
+[containersupport:eventing] WARNING: Could not send event because no event handler was found for topic `com/mendix/events/runtime/shutdown`.
+
+

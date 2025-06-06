@@ -1,0 +1,1 @@
+define(["CheckboxSelector/widget/checkboxselector", "CheckboxSelector/widget/checkboxselectormf"], {});
