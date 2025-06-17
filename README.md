@@ -78,9 +78,4 @@ The Titan Website project demonstrates how Mendix Studio Pro enables low-code we
 
 ## 👤 Author
 
-- Developed by: [Your Name Here]
-
-## 📜 License
-
-This project is not licensed. Feel free to use it for learning or personal reference.
-
+- Developed by: R Moulidharan
